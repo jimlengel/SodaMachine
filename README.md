@@ -24,6 +24,7 @@ The desired behaviors have been described in tests, but are summarized here, in 
   This method will be called `SodaMachine#find_soda`.
 - A soda machine will be able to sell a soda with a given brand. When a soda is sold, it should
   be removed from the soda machine and the price of the soda should be added to the soda machine's cash
+  This method will be called `SodaMachine#sell`.
 
 Use RSpec to help validate that your
 implementation meets these provided expectations.
