@@ -33,17 +33,17 @@ implementation meets these provided expectations.
 
 To run all the tests, you can use:
 
-`bundle exec rspec spec `
+`rspec spec `
 
 or simply:
 
-`bundle exec rspec`
+`rspec`
 
 *Note: Your machine may have an alias to short hand bundle exec to `be`*
 
 To run the tests for a specific file, you can use:
 
-`bundle exec rspec spec spec/<file_name_goes_here>`
+`rspec spec spec/<file_name_goes_here>`
 
 If you would like RSpec to stop running the tests as soon as it executes a
 failing test, you can use the `--fail-fast` option with any of the above
