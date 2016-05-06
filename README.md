@@ -39,8 +39,6 @@ or simply:
 
 `rspec`
 
-*Note: Your machine may have an alias to short hand bundle exec to `be`*
-
 To run the tests for a specific file, you can use:
 
 `rspec spec spec/<file_name_goes_here>`
