@@ -17,7 +17,7 @@ describe SodaMachine do
   describe "#find_soda", { find_soda: true } do
     context "when the soda is in the machine" do
       it "returns the soda the user requested" do
-        expect(soda_machine.find_soda('Pepsi')).to eq(pepsi)
+        expect(soda_machine.find_soda('Mountain Dew')).to eq(mountain_dew)
       end
     end
     context "when the soda is not available" do
